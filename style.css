@@ -5,3 +5,86 @@ font color:  #000000
 secondary color: #FFA1CF  
 tertiary color: #C689C6   
 */
+
+
+@import url('href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;   /* default font size is 16px - 62.5% of 16 is 10px - 
+                         1 rem (relative unit) now will be equivalent to 10px} */
+}
+
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 4px solid #FFA1CF;
+    border-right: 4px solid  #FFA1CF;
+    border-left: 4px solid  #FFA1CF;
+    padding: 2.0rem;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    text-transform: Uppercase;
+    font-size: 1.0rem;
+}
+body {
+    background-color: #FFCACA ;
+    color:#000000;
+    font-family: 'Cormorant Garamond', serif;;
+    margin: 1;
+}
+
+cite {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 3rem;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.imageCard a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.cardText {
+    color: #000000;
+    text-align: center;
+    Padding: 2rem;
+    border-radius: 8px;
+    margin-top: 5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    header 
+    {
+        font-size: 1.6rem;
+    }
+    .gallery{ 
+        display: flex;
+        flex-direction: row;
+        Justify-content: space-evenly;
+        Flex-wrap: wrap;
+    }
+    .imageCard { 
+         max-width: 26%;
+    }
+}
