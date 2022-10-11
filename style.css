@@ -16,9 +16,10 @@ html {
 
 
 header {
-    margin: 0 4rem;
-    letter-spacing: 0.8rem;
+    margin: 0.1rem;
+    letter-spacing: 1.0rem;
     text-align: center;
+    border-top: 4px solid #FFA1CF;
     border-bottom: 4px solid #FFA1CF;
     border-right: 4px solid  #FFA1CF;
     border-left: 4px solid  #FFA1CF;
@@ -35,11 +36,11 @@ body {
 }
 
 cite {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 
@@ -67,10 +68,15 @@ p {
 .cardText {
     color: #000000;
     text-align: center;
-    Padding: 2rem;
-    border-radius: 8px;
-    margin-top: 5rem;
+    border-top: 4px solid #5F6F94;
+    border-bottom: 4px solid #5F6F94;
+    border-right: 4px solid  #5F6F94;
+    border-left: 4px solid  #5F6F94;
+    Padding: 0.7rem;
+    border-radius: 1px;
+    margin-top: 2rem;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    opacity: 7.0;
 }
 
 @media (min-width: 768px) {
@@ -78,13 +84,27 @@ p {
     {
         font-size: 1.6rem;
     }
-    .gallery{ 
-        display: flex;
-        flex-direction: row;
+    .gallery{
+      display: flex;
+    flex-direction: row;
         Justify-content: space-evenly;
-        Flex-wrap: wrap;
+        Flex-wrap: wrap; 
     }
     .imageCard { 
-         max-width: 26%;
+          max-width: 26%; 
     }
+    
+    #header {
+  background-color: #f1f1f1; /* Grey background */
+  padding: 50px 10px; /* Some padding */
+  color: black;
+  text-align: center; /* Centered text */
+  font-size: 90px; /* Big font size */
+  font-weight: bold;
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
+
+   
