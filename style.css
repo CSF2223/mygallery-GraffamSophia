@@ -19,17 +19,17 @@ header {
     margin: 0.1rem;
     letter-spacing: 1.0rem;
     text-align: center;
-    border-top: 4px solid #FFA1CF;
-    border-bottom: 4px solid #FFA1CF;
-    border-right: 4px solid  #FFA1CF;
-    border-left: 4px solid  #FFA1CF;
-    padding: 2.0rem;
+    border-top: 3px solid #FFE3ED;
+    border-bottom: 3px solid #FFE3ED;
+    border-right: 3px solid  #FFE3ED;
+    border-left: 3px solid  #FFE3ED;
+    padding: 1.0rem;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
     text-transform: Uppercase;
     font-size: 1.0rem;
 }
 body {
-    background-color: #FFCACA ;
+    background-color: #FFB6B9;
     color:#000000;
     font-family: 'Cormorant Garamond', serif;;
     margin: 1;
@@ -68,13 +68,13 @@ p {
 .cardText {
     color: #000000;
     text-align: center;
-    border-top: 4px solid #5F6F94;
-    border-bottom: 4px solid #5F6F94;
-    border-right: 4px solid  #5F6F94;
-    border-left: 4px solid  #5F6F94;
-    Padding: 0.7rem;
-    border-radius: 1px;
-    margin-top: 2rem;
+    border-top: 1px solid #FFDDCC;
+    border-bottom: 1px solid #FFDDCC;
+    border-right: 1px solid  #FFDDCC;
+    border-left: 1px solid  #FFDDCC;
+    Padding: 1.0rem;
+    border-radius: 3px;
+    margin-top: 1rem;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     opacity: 7.0;
 }
@@ -91,20 +91,14 @@ p {
         Flex-wrap: wrap; 
     }
     .imageCard { 
-          max-width: 26%; 
+          max-width: 28%; 
     }
-    
-    #header {
-  background-color: #f1f1f1; /* Grey background */
-  padding: 50px 10px; /* Some padding */
-  color: black;
-  text-align: center; /* Centered text */
-  font-size: 90px; /* Big font size */
-  font-weight: bold;
-  position: fixed; /* Fixed position - sit on top of the page */
-  top: 0;
-  width: 100%; /* Full width */
-  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    img {
+  border: 3px solid #FFE2E2;
+}
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(83deg, #FF99D7 0%, #FF0063 95%);
 }
 
    
