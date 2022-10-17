@@ -27,6 +27,12 @@ header {
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
     text-transform: Uppercase;
     font-size: 1.0rem;
+    div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 }
 body {
     background-color: #FFB6B9;
@@ -96,9 +102,3 @@ p {
     img {
   border: 3px solid #FFE2E2;
 }
-body {
-  height: 3000px; /* Used to enable scrolling */
-  background: linear-gradient(83deg, #FF99D7 0%, #FF0063 95%);
-}
-
-   
