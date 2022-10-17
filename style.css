@@ -27,11 +27,6 @@ header {
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
     text-transform: Uppercase;
     font-size: 1.0rem;
-    div.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
 
 }
 body {
